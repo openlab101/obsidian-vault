@@ -1,4 +1,44 @@
+# macOS
 .DS_Store
-.obsidian/workspace
+.AppleDouble
+.LSOverride
+._*
+
+# Obsidian workspace files (user-specific, not shared)
 .obsidian/workspace.json
+.obsidian/workspace
 .obsidian/workspace-mobile.json
+
+# Obsidian cache
+.obsidian/cache
+
+# Obsidian plugins (optional - uncomment if you want to exclude all plugins)
+# .obsidian/plugins/
+
+# Trash folder
+.trash/
+
+# Temporary files
+*.tmp
+*~
+.~lock.*
+
+# Large binary files (optional - adjust size threshold as needed)
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Backup files
+*.bak
+*.backup
+
+# OS-specific files
+Thumbs.db
+desktop.ini
+
+# Node modules (if using any Obsidian plugins with dependencies)
+node_modules/
+
+# Log files
+*.log
