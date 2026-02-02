@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"f82badaf7b711b76","type":"group","x":-460,"y":80,"width":440,"height":547,"color":"5","label":"의사결정"},
+		{"id":"d478a84457d52f9b","type":"group","x":60,"y":80,"width":440,"height":547,"color":"4","label":"데이터"},
+		{"id":"33187bb86186920c","type":"group","x":580,"y":80,"width":440,"height":547,"color":"3","label":"회고모음"},
+		{"id":"13b5a5b688e7d084","type":"text","text":"📋 기획","x":-440,"y":-180,"width":400,"height":60,"color":"5"},
+		{"id":"b9bc3c340eea16ef","type":"file","file":"Marketing-Brain/2_Decision-Templates/소재선택_의사결정.md","x":-440,"y":100,"width":400,"height":82},
+		{"id":"276a4aa5e8b39523","type":"file","file":"Marketing-Brain/2_Decision-Templates/예산배분_의사결정.md","x":-440,"y":220,"width":400,"height":80},
+		{"id":"f4e7733f4fb17250","type":"file","file":"Marketing-Brain/2_Decision-Templates/프로모션가격_의사결정.md","x":-440,"y":340,"width":400,"height":80},
+		{"id":"5edf22341c5ed0c6","type":"text","text":"🚀 실행","x":80,"y":-180,"width":400,"height":60,"color":"4"},
+		{"id":"413c9ed7fdbb3440","type":"text","text":"📝 회고","x":600,"y":-180,"width":400,"height":60,"color":"3"},
+		{"id":"b2ad0515f13f2e11","type":"file","file":"Marketing-Brain/3_Data/네이버/2025-02_네이버_주간성과.md","x":80,"y":100,"width":190,"height":162},
+		{"id":"e499482536ac8aa9","type":"file","file":"Marketing-Brain/3_Data/메타/2025-02_메타_주간성과.md","x":80,"y":275,"width":190,"height":162},
+		{"id":"12c788c670659f23","type":"file","file":"Marketing-Brain/3_Data/매출/2025-02_채널별_매출.md","x":80,"y":445,"width":190,"height":162},
+		{"id":"d9b601724fed5133","type":"file","file":"Marketing-Brain/3_Data/네이버/네이버_키워드_성과누적.md","x":290,"y":100,"width":190,"height":162},
+		{"id":"6a2423258b2a005f","type":"file","file":"Marketing-Brain/3_Data/메타/메타_소재별_성과누적.md","x":290,"y":275,"width":190,"height":162},
+		{"id":"81ba7d2e1f7a9323","type":"file","file":"Marketing-Brain/5_Log/회고_모음.md","x":600,"y":258,"width":400,"height":148},
+		{"id":"b02aa10cb31b1fe3","type":"file","file":"Marketing-Brain/5_Log/2025-02_의사결정_기록.md","x":600,"y":100,"width":400,"height":148}
+	],
+	"edges":[
+		{"id":"a7cf1633449287c9","fromNode":"13b5a5b688e7d084","fromSide":"bottom","toNode":"f82badaf7b711b76","toSide":"top"},
+		{"id":"04352f12ffaeab62","fromNode":"5edf22341c5ed0c6","fromSide":"bottom","toNode":"d478a84457d52f9b","toSide":"top"},
+		{"id":"790ffbd0c08b4118","fromNode":"413c9ed7fdbb3440","fromSide":"bottom","toNode":"33187bb86186920c","toSide":"top"},
+		{"id":"c77ef3dd63161080","fromNode":"f82badaf7b711b76","fromSide":"bottom","toNode":"33187bb86186920c","toSide":"bottom"}
+	]
+}
